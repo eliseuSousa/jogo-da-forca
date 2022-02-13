@@ -21,7 +21,6 @@ buttonStartPlayer.addEventListener("click", function (event) {
     acertos.length = 0;
     palavraSecreta = sortearPalavraSecreta();
     desenhaTracos(palavraSecreta);
-    console.log(palavraSecreta);
     window.scroll(0, 500);
 });
 
